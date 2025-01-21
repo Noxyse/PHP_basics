@@ -11,4 +11,11 @@ PHP stands for 'PHP: Hypertext Preprocessor'. It's a server-side scripting langu
 
 ## Why use PHP?
 - **Simplicity**: rather easy to learn.
-- **Versatility**: 
+- **Versatility**: can be used for everything from small scripts to large enterprise apps.
+- **Community support**: strong open-source community.
+- **Real-world examples**:
+  - WordPress, Joomla and Drupal are built on PHP.
+  - Facebook and Wikipedia use PHP in their tech stack.
+ 
+## PHP syntax and basics
+
