@@ -135,8 +135,8 @@ echo "Thank you, $name. We will contact you at $email.";
 - slower than newer frameworks like Node.js for certain tasks.
 
 ## Resources
-- PHP documentation: https://www.php.net/manual/en/
-- Tutorials: W3Schools, PHP The Right Way
+- [PHP documentation](https://www.php.net/manual/en/)
+- Tutorials: [W3Schools](https://www.w3schools.com/php/), [PHP The Right Way](https://phptherightway.com/)
 - Tools:
-  - XAMPP: local server for PHP and MySQL.
-  - Online sandbox like Replit for quick PHP testing.
+  - [XAMPP](https://www.apachefriends.org/fr/index.html): local server for PHP and MySQL.
+  - Online sandbox like [Replit](https://replit.com/) for quick PHP testing.
