@@ -175,7 +175,7 @@ Reigen-cs
     <input type="submit">
 </form>
 ```
-#### Corresponding PHP script (<submit.php>):
+#### Corresponding PHP script (`submit.php`):
 ```
 <?php
 $name = $_POST['name'];
