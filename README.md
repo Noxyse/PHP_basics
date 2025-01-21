@@ -4,7 +4,7 @@
 2. [Why PHP?](#why-use-php)
 3. [Syntax and basics](#php-syntax-and-basics)
 4. [Variables and data types](#variables-and-data-types)
-5. [Structure](#control-structure)
+5. [Structure](#control-structures)
 6. [Functions](#functions)
 
 ## Introduction to PHP
