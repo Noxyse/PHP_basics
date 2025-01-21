@@ -115,7 +115,8 @@ while ($row = $result->fetch_assoc()) {
 ```
 
 #### Connecting to the Database:
-- `$conn = new mysqli("localhost", "username", "password", "database");` tries to establish a connection to the MySQL database server. If successful, `$conn` will hold the connection object.
+`$conn = new mysqli("localhost", "username", "password", "database");`
+- Tries to establish a connection to the MySQL database server. If successful, `$conn` will hold the connection object.
 
 #### Checking for connection errors:
 ```
@@ -128,10 +129,10 @@ if ($conn->connect_error) {
 
 #### Executing a query:
 `$result = $conn->query("SELECT * FROM users");` 
-
 - The `$conn->query()` method sends a SQL query to the database.
-`"SELECT * FROM users"`
-- 
+- `"SELECT" * FROM users"` is a SQL command to select all columns (*) and all rows from the `users` table.
+- The result of this query is stored in `$result`.
+- If the query fails (table `users` doesn't exist), `$result` will be `fasle`.
 
 ## Real-world application
 ### Contact form in PHP
