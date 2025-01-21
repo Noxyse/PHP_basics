@@ -34,3 +34,28 @@ echo "Hello, World!";
 </body>
 </html>
 ```
+
+## Variables and data types
+Data types: string, integer, float, boolean, array.
+Variables are declared using **$** sign.
+Example:
+```
+<?php
+$name = "John";
+$age = 25;
+echo "My name is $name and I am $age years old.";
+?>
+```
+
+## Control structures
+### If-else example:
+```
+<?php
+$hour = 10;
+if ($hour < 12) {
+    echo "Good morning!";
+} else {
+    echo "Good afternoon!";
+}
+?>
+```
