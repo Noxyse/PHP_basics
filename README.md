@@ -37,6 +37,7 @@ echo "Hello, World!";
 
 ## Variables and data types
 Data types: string, integer, float, boolean, array.
+
 Variables are declared using **$** sign.
 Example:
 ```
