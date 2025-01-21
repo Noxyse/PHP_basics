@@ -6,6 +6,10 @@
 4. [Variables and data types](#variables-and-data-types)
 5. [Structure](#control-structures)
 6. [Functions](#functions)
+7. [Database interaction](#database-interaction)
+8. [Real-world application](#real-world-application)
+9. [Advantages and disadvantages](#advantages-and-disadvantages)
+10. [Resources](#resources)
 
 ## Introduction to PHP
 
