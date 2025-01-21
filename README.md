@@ -46,7 +46,7 @@ echo "Hello, World!";
 Data types: string, integer, float, boolean, array.
 
 Variables are declared using **$** sign.
-Example:
+### Example:
 ```
 <?php
 $name = "John";
@@ -80,3 +80,63 @@ for ($i = 1; $i <= 5; $i++) {
 ```
 
 ## Functions
+### Defining a function:
+```
+<?php
+function greet($name) {
+    return "Hello, $name!";
+}
+echo greet("Alice");
+?>
+```
+
+## Database interaction
+### Basic MySQL query in PHP:
+```
+<?php
+$conn = new mysqli("localhost", "username", "password", "database");
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+$result = $conn->query("SELECT * FROM users");
+while ($row = $result->fetch_assoc()) {
+    echo $row['name'] . "<br>";
+}
+?>
+```
+
+## Real-world application
+### Contact form in PHP
+#### HTML code:
+```
+<form method="post" action="submit.php">
+    Name: <input type="text" name="name"><br>
+    Email: <input type="email" name="email"><br>
+    <input type="submit">
+</form>
+```
+#### Corresponding PHP script (<submit.php>):
+```
+<?php
+$name = $_POST['name'];
+$email = $_POST['email'];
+echo "Thank you, $name. We will contact you at $email.";
+?>
+```
+
+## Advantages and disadvantages
+### Advantages:
+- easy to learn and deploy.
+- works seamlessly with HTML and CSS.
+- supports a variety of databases.
+
+### Disadvantages:
+- can be less secure if not coded properly.
+- slower than newer frameworks like Node.js for certain tasks.
+
+## Resources
+- PHP documentation: https://www.php.net/manual/en/
+- Tutorials: W3Schools, PHP The Right Way
+- Tools:
+  - XAMPP: local server for PHP and MySQL.
+  - Online sandbox like Replit for quick PHP testing.
