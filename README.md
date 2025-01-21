@@ -1,7 +1,7 @@
 # PHP basics
 ## Summary
-1. [Introduction](#introduction-to-PHP)
-2. [Why PHP?](#why-use-PHP?)
+1. [Introduction](#introduction-to-php)
+2. [Why PHP?](#why-use-php)
 
 ## Introduction to PHP
 
