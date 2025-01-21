@@ -111,6 +111,7 @@ $result = $conn->query("SELECT * FROM users");
 while ($row = $result->fetch_assoc()) {
     echo $row['name'] . "<br>";
 }
+$conn->close();
 ?>
 ```
 
@@ -160,6 +161,9 @@ neo01777
 Reigen-cs
 ```
 
+#### 5. Closing the connection
+`$conn->close();`
+- This releases resources associated with the connection.
 
 ## Real-world application
 ### Contact form in PHP
