@@ -117,6 +117,22 @@ while ($row = $result->fetch_assoc()) {
 #### Connecting to the Database:
 - `$conn = new mysqli("localhost", "username", "password", "database");` tries to establish a connection to the MySQL database server. If successful, `$conn` will hold the connection object.
 
+#### Checking for connection errors:
+```
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+```
+- The `connect_error` property of the `$conn` object checks if there was an error during the connection attempt.
+- If there's an error (invalid creds or server unreachable), the script displays the error message using `die()` and stops further script execution.
+
+#### Executing a query:
+`$result = $conn->query("SELECT * FROM users");` 
+
+- The `$conn->query()` method sends a SQL query to the database.
+`"SELECT * FROM users"`
+- 
+
 ## Real-world application
 ### Contact form in PHP
 #### HTML code:
