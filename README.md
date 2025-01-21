@@ -115,7 +115,7 @@ while ($row = $result->fetch_assoc()) {
 ```
 
 #### Connecting to the Database:
-`$conn = new mysqli("localhost", "username", "password", "database");` tries to establish a connection to the MySQL database server. If successful, `$conn` will hold the connection object.
+- `$conn = new mysqli("localhost", "username", "password", "database");` tries to establish a connection to the MySQL database server. If successful, `$conn` will hold the connection object.
 
 ## Real-world application
 ### Contact form in PHP
