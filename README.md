@@ -114,11 +114,11 @@ while ($row = $result->fetch_assoc()) {
 ?>
 ```
 
-#### Connecting to the Database:
+#### 1. Connecting to the Database:
 `$conn = new mysqli("localhost", "username", "password", "database");`
 - Tries to establish a connection to the MySQL database server. If successful, `$conn` will hold the connection object.
 
-#### Checking for connection errors:
+#### 2. Checking for connection errors:
 ```
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -127,12 +127,39 @@ if ($conn->connect_error) {
 - The `connect_error` property of the `$conn` object checks if there was an error during the connection attempt.
 - If there's an error (invalid creds or server unreachable), the script displays the error message using `die()` and stops further script execution.
 
-#### Executing a query:
+#### 3. Executing a query:
 `$result = $conn->query("SELECT * FROM users");` 
 - The `$conn->query()` method sends a SQL query to the database.
 - `"SELECT" * FROM users"` is a SQL command to select all columns (*) and all rows from the `users` table.
 - The result of this query is stored in `$result`.
 - If the query fails (table `users` doesn't exist), `$result` will be `fasle`.
+
+#### 4. Fetching and displaying results:
+```
+while ($row = $result->fetch_assoc()) {
+    echo $row['name'] . "<br>";
+}
+```
+- `$result->fetch_assoc()` fetches one row of data from the result set as an **associative array**.
+  - Keys of the array correspond to the column names in the `users` table.
+- The `while` loop continues to fetch rows until there are no more left.
+  - `$row['name']` accesses the value in the `name` column of the current row.
+  - `echo $row['name'] . "<br>";` prints the `name` value, followed by a line break.
+
+##### Output example:
+
+Assuming the `users` table contains this data:
+| id     | name | email        |
+|----------|-----|-------------|
+| 1    | neo01777  | neo01777@becode.org    |
+| 2      | Reigen-cs  | reigen-cs@becode.org  |
+
+The output will be:
+```
+neo01777
+Reigen-cs
+```
+
 
 ## Real-world application
 ### Contact form in PHP
