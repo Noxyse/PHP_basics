@@ -2,6 +2,10 @@
 ## Summary
 1. [Introduction](#introduction-to-php)
 2. [Why PHP?](#why-use-php)
+3. [Syntax and basics](#php-syntax-and-basics)
+4. [Variables and data types](#variables-and-data-types)
+5. [Structure](#control-structure)
+6. [Functions](#functions)
 
 ## Introduction to PHP
 
