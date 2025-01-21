@@ -19,3 +19,8 @@ PHP stands for 'PHP: Hypertext Preprocessor'. It's a server-side scripting langu
  
 ## PHP syntax and basics
 
+```
+<?php
+echo "Hello, World!";
+?>
+```
