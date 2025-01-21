@@ -1,4 +1,7 @@
 # PHP basics
+## Summary
+1. [Introduction](#introduction_to_PHP)
+2. [Why PHP?](#why_use_PHP?)
 
 ## Introduction to PHP
 
@@ -62,3 +65,14 @@ if ($hour < 12) {
 }
 ?>
 ```
+
+### Loop example:
+```
+<?php
+for ($i = 1; $i <= 5; $i++) {
+    echo "Number: $i<br>";
+}
+?>
+```
+
+## Functions
