@@ -94,6 +94,10 @@ echo greet("Alice");
 ?>
 ```
 
+- The key word `function` is used to define a function in PHP.
+- `greet` is the name of the function.
+- `$name` is the **parameter** of the function. It acts as the placeholder that takes a value when the function is called.
+
 ## Database interaction
 ### Basic MySQL query in PHP:
 ```
