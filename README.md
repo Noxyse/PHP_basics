@@ -143,4 +143,4 @@ echo "Thank you, $name. We will contact you at $email.";
 - Tutorials: [W3Schools](https://www.w3schools.com/php/), [PHP The Right Way](https://phptherightway.com/)
 - Tools:
   - [XAMPP](https://www.apachefriends.org/fr/index.html): local server for PHP and MySQL.
-  - Online sandbox like [Replit](https://replit.com/) for quick PHP testing.
+  - Online [sanbox](https://onlinephp.io/) for quick PHP testing.
