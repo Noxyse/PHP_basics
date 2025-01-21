@@ -18,9 +18,19 @@ PHP stands for 'PHP: Hypertext Preprocessor'. It's a server-side scripting langu
   - Facebook and Wikipedia use PHP in their tech stack.
  
 ## PHP syntax and basics
-
+### Hello, World!
 ```
 <?php
 echo "Hello, World!";
 ?>
+```
+
+### Inside HTML code
+```
+<!DOCTYPE html>
+<html>
+<body>
+    <h1><?php echo "Welcome to PHP!"; ?></h1>
+</body>
+</html>
 ```
